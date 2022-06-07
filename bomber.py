@@ -236,14 +236,14 @@ def pretty_print(cc, target, success, failed):
     requested = success+failed
     mesgdcrt.SectionMessage("Start Bombing ")
     mesgdcrt.GeneralMessage(
-       "Hey! Welcome to Lightning bombing by Krishna6688")
+       "Hey! Welcome to Lightning bombing by Krishna6688@github")
     mesgdcrt.GeneralMessage("Target       : " + cc + " " + target)
     mesgdcrt.GeneralMessage("Sent req        : " + str(requested))
     mesgdcrt.GeneralMessage("Successful req  : " + str(success))
     mesgdcrt.GeneralMessage("Failed req      : " + str(failed))
     mesgdcrt.WarningMessage(
-        "This tool was made for fun and research purposes only")
-    mesgdcrt.SuccessMessage("TBomb was created by SpeedX")
+        "Advance level bombing...........")
+    mesgdcrt.SuccessMessage("contact @krishn6688 via telegram")
 
 
 def workernode(mode, cc, target, count, delay, max_threads):
