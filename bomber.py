@@ -234,13 +234,13 @@ def get_mail_info():
 
 def pretty_print(cc, target, success, failed):
     requested = success+failed
-    mesgdcrt.SectionMessage("Bombing is in progress - Please be patient")
+    mesgdcrt.SectionMessage("Start Bombing ")
     mesgdcrt.GeneralMessage(
-        "Please stay connected to the internet during bombing")
+       "Hey! Welcome to Lightning bombing by Krishna6688")
     mesgdcrt.GeneralMessage("Target       : " + cc + " " + target)
-    mesgdcrt.GeneralMessage("Sent         : " + str(requested))
-    mesgdcrt.GeneralMessage("Successful   : " + str(success))
-    mesgdcrt.GeneralMessage("Failed       : " + str(failed))
+    mesgdcrt.GeneralMessage("Sent req        : " + str(requested))
+    mesgdcrt.GeneralMessage("Successful req  : " + str(success))
+    mesgdcrt.GeneralMessage("Failed req      : " + str(failed))
     mesgdcrt.WarningMessage(
         "This tool was made for fun and research purposes only")
     mesgdcrt.SuccessMessage("TBomb was created by SpeedX")
